@@ -4,7 +4,7 @@ This repo contains a set of sample scripts used to set up an Azure Chat Bot and 
 
 ## Instructions
 1. [Create a C# EchoBot in Visual Studio](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-create-bot?view=azure-bot-service-4.0&tabs=csharp%2Cvs), then run and test it with Bot Framework Emulator
-1. Set up Azure Relay with [this script](https://github.com/PurpleBriar/relaybot/blob/main/scripts/createBotAndRelay.sh). It will also create the bot service in Azure
+1. Set up Azure Relay by updating and running [createBotAndRelay.sh](scripts/createBotAndRelay.sh). It will also create the bot service in Azure
 1. Set up NetPassage
 1. Clone the [NetPassages repo](https://github.com/dannygar/netpassage) and open it in Visual Studio
 
@@ -30,4 +30,4 @@ This repo contains a set of sample scripts used to set up an Azure Chat Bot and 
 
 1. In Echobot project (created in step 1), go to src directory and add MicrosoftAppId and MicrosoftAppPassword values to appsettings.json
 
-1. Update and run [this script](https://github.com/PurpleBriar/relaybot/blob/main/scripts/zipAndDeploy.sh) to zip your bot and deploy it to Azure
+1. Update and run [zipAndDeploy.sh](scripts/zipAndDeploy.sh) to zip your bot and deploy it to Azure
